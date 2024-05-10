@@ -1,0 +1,3 @@
+schedule,chunk,threads,execution_time
+dynamic,4.0,4.0,0.992
+sequential,,,3.58619

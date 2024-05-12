@@ -3,12 +3,11 @@
 This script automates the testing of OpenMP parallelization configurations for C++ code. It conducts experiments with different scheduling strategies, chunk sizes, and thread numbers to evaluate performance. Here's how it works:
 
 ## Dependencies 🛠️ ⚠️⚠️⚠️
-
 - `g++`: for compiling C++ code
 - `matplotlib`: for plotting results (`pip install matplotlib`)
 - `pandas`: for data manipulation (`pip install pandas`)
-- convert the schedule type in the parallel code to ##runtime## to use the environment variable for scheduling
-- don't set the thread number in the code, it'll be set by the environment variable
+- convert the schedule type in the parallel code to **runtime** to use the environment variable for scheduling
+- **don't** set the thread number in the code, it'll be set by the environment variable
 
 ## How It Works ℹ️
 
@@ -18,8 +17,8 @@ This script automates the testing of OpenMP parallelization configurations for C
 4. **Plot Results**: The script visualizes experiment results, comparing parallel execution times with the sequential baseline.
 
 ## Files Generated 📄
-![comparsion]('plot1.png')
-![best]('plot2.png')
+![comparsion](plot1.png)
+![best](plot2.png)
 - `output.txt`: Captures program output.
 - `experiments.csv`: Stores experiment details.
 - `best.csv`: Contains the best configurations found.
